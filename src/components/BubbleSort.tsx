@@ -12,6 +12,7 @@ const BubbleSort: React.FC = () => {
 
   useEffect(() => {
     generateArray();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [size]);
 
   const generateArray = () => {
